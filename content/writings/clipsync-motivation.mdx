@@ -1,0 +1,19 @@
+---
+title: "On the economics of creating software"
+summary: "Coding agents are disruptive, it finally dawned on me, because they have permanently changed the economic calculus of writing software."
+date: "2026-01-31"
+tags: ["AI", "Productivity", "Coding"]
+---
+I've had a nagging problem for a while now, ever since I added a Linux desktop to my work setup. As a result, syncing my clipboard across my Mac and Linux devices, which my workflow often requires, became a hassle, to say the least.
+
+It’s a minor friction but persistent and frustrating. Until recently, my workaround was hacks like pastebin.com, klipit.in, or even emailing myself stuff. I knew exactly what I wanted instead—a private, end-to-end encrypted tool that works directly in the browser without requiring me to set up or maintain a server—but I couldn't find an existing tool that works.
+
+Traditionally, building this myself would have taken at least a day. I would have had to set up the project, read up on Chrome extension APIs, wrestle with WebRTC quirks, handle the encryption implementation, implement and polish the UI, among other things. For such a "low-hanging fruit" problem, the ROI just wasn't there. The time investment outweighed the friction, so I would've probably stuck with the hacks.
+
+**Enter the era of coding agents.**
+
+With the help of Claude Opus, I built **[ClipSync](https://github.com/akinxwumi/clipsync)** in ~2 hours. I simply described the spec: a secure, P2P browser extension using codes to pair the devices. The agent handled all the heavy lifting: the boilerplate, the encryption logic, the peer connection handshake, etc.
+
+The economics of creating software, it finally dawned on me, has drastically shifted. The cost of building custom tools for personal or niche problems, such as syncing my clipboard, has gone to nearly zero as the opportunity cost has disappeared pretty much. We no longer have to do a cost-benefit analysis of problems like this against the developmental cost (whether that is time or any other resource). Now, if you can articulate a software problem, you can solve it.
+
+It’s long been obvious that the marginal cost of replicating software is near zero. What’s changed is that even the initial fixed cost of building it is also approaching zero now, at least for low-medium-hanging-fruit use cases. That cost has effectively moved to the model level and this is the real disruption. The software that creates software now exists.
