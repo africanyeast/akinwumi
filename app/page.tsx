@@ -6,6 +6,11 @@ import { Portfolio } from "@/components/Portfolio";
 // Projects Data
 const personalProjects = [
   {
+    name: "NairaBooks",
+    synopsis: "A prototype for an AI-powered accounting software for Nigeria.",
+    link: "https://nairabooks.vercel.app"
+  },
+  {
     name: "Sohne",
     synopsis: "Bitcoin whitepaper implementation in Python + a wallet client for the Sohne network.",
     link: "https://github.com/akinxwumi/sohne"
@@ -21,12 +26,12 @@ const personalProjects = [
     link: "https://github.com/akinxwumi/clipsync"
   },
   {
-    name: "Chessrepo",
+    name: "ChessRepo",
     synopsis: "Daily top chess grandmasters games tracker.",
-    link: "https://github.com/akinxwumi/chessrepo"
+    link: "https://github.com/akinxwumi/chessrepo-v2"
   },
   {
-    name: "Chessprocedure",
+    name: "ChessProcedure",
     synopsis: "Chess performance analysis tool (Lichess, Chess.com).",
     link: "https://github.com/akinxwumi/chessprocedure"
   },
@@ -125,7 +130,7 @@ export default async function Home() {
                 className="block group"
               >
                 <div className="flex items-baseline justify-between mb-2">
-                  <h3 className="text-lg font-medium text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                  <h3 className="text-base font-medium text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
                     {post.title}
                   </h3>
                   {post.date && (
