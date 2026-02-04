@@ -49,7 +49,7 @@ const personalProjects = [
 
 const workGroups = [
   {
-    company: "Abacus Technologies (defunct)",
+    company: "Abacus Technologies",
     role: "Co-founder & CEO",
     projects: [
       {
@@ -139,7 +139,7 @@ export default async function Home() {
                     </span>
                   )}
                 </div>
-                <p className="text-gray-500 dark:text-gray-400 leading-relaxed max-w-2xl">
+                <p className="text-sm text-gray-500 dark:text-gray-600 leading-relaxed max-w-2xl">
                   {post.summary}
                 </p>
               </Link>

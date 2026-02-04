@@ -42,7 +42,7 @@ export function Portfolio({ personalProjects, workGroups }: PortfolioProps) {
                             "text-sm font-medium transition-colors relative pb-1",
                             activeTab === "personal"
                                 ? "text-gray-900 dark:text-gray-100"
-                                : "text-gray-400 dark:text-gray-600 hover:text-gray-600 dark:hover:text-gray-300"
+                                : "text-gray-500 dark:text-gray-600 hover:text-gray-600 dark:hover:text-gray-300"
                         )}
                     >
                         Personal
@@ -59,7 +59,7 @@ export function Portfolio({ personalProjects, workGroups }: PortfolioProps) {
                             "text-sm font-medium transition-colors relative pb-1",
                             activeTab === "work"
                                 ? "text-gray-900 dark:text-gray-100"
-                                : "text-gray-400 dark:text-gray-600 hover:text-gray-600 dark:hover:text-gray-300"
+                                : "text-gray-500 dark:text-gray-600 hover:text-gray-600 dark:hover:text-gray-300"
                         )}
                     >
                         Work
