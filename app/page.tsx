@@ -7,42 +7,42 @@ import { Portfolio } from "@/components/Portfolio";
 const personalProjects = [
   {
     name: "NairaBooks",
-    synopsis: "A prototype for an AI-powered accounting software for Nigeria.",
+    synopsis: "A prototype for an AI-powered accounting software for Nigeria",
     link: "https://nairabooks.vercel.app"
   },
   {
     name: "Sohne",
-    synopsis: "Bitcoin whitepaper implementation in Python + a wallet client for the Sohne network.",
+    synopsis: "Bitcoin whitepaper implementation in Python + a wallet client for the Sohne network",
     link: "https://github.com/akinxwumi/sohne"
   },
   {
     name: "Kopi",
-    synopsis: "Visual research AI agent.",
+    synopsis: "Visual research AI agent",
     link: "https://usekopi.com"
   },
   {
     name: "ClipSync",
-    synopsis: "Private clipboard sync across Chromium-based browsers using WebRTC.",
+    synopsis: "Private clipboard sync across Chromium-based browsers using WebRTC",
     link: "https://github.com/akinxwumi/clipsync"
   },
   {
     name: "ChessRepo",
-    synopsis: "Daily top chess grandmasters games tracker.",
+    synopsis: "Daily top chess grandmasters games tracker",
     link: "https://github.com/akinxwumi/chessrepo-v2"
   },
   {
     name: "ChessProcedure",
-    synopsis: "Chess performance analysis tool (Lichess, Chess.com).",
+    synopsis: "Chess performance analysis tool (Lichess, Chess.com)",
     link: "https://github.com/akinxwumi/chessprocedure"
   },
   {
     name: "Woodpecker",
-    synopsis: "Chess tactics trainer tool using the woodpecker method.",
+    synopsis: "Chess tactics trainer tool using the woodpecker method",
     link: "https://github.com/akinxwumi/woodpecker"
   },
   {
     name: "LindyTV",
-    synopsis: "YouTube client for a personalized TV experience.",
+    synopsis: "YouTube client for a personalized TV experience",
     link: "https://github.com/akinxwumi/lindytv"
   }
 ];
@@ -54,7 +54,7 @@ const workGroups = [
     projects: [
       {
         name: "Abacus App (iOS/Android)",
-        synopsis: "Personal finance ecosystem.",
+        synopsis: "Personal finance ecosystem",
         link: null
       }
     ]
@@ -65,17 +65,17 @@ const workGroups = [
     projects: [
       {
         name: "Sendcash Pay",
-        synopsis: "Open banking, Plaid-like payment processor for Afrika.",
+        synopsis: "Open banking, Plaid-like payment processor for Afrika",
         link: null
       },
       {
         name: "SPAN",
-        synopsis: "Pan-Afrikan crypto agent network.",
+        synopsis: "Pan-Afrikan crypto agent network",
         link: null
       },
       {
         name: "RAMP",
-        synopsis: "Afrika's first programmatic crypto on/off-ramp (USDT/UDSC ⇄ Fiat).",
+        synopsis: "Afrika's first programmatic crypto on/off-ramp (USDT/UDSC ⇄ Fiat)",
         link: null
       }
     ]
@@ -94,7 +94,7 @@ export default async function Home() {
         </h1>
         <div className="space-y-6 text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-xl">
           <p>
-            Product guy, currently experimenting with frontier technologies. I am open to work opportunities or collaborations.
+            Product engineer, currently experimenting with frontier technologies. I am open to work opportunities or collaborations.
           </p>
           <div className="flex gap-5 text-sm">
             <a className="flex items-center gap-2 hover:text-black dark:hover:text-white transition-colors">
