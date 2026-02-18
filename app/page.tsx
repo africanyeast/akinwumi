@@ -6,6 +6,11 @@ import { Portfolio } from "@/components/Portfolio";
 // Projects Data
 const personalProjects = [
   {
+    name: "NGN ⇄ CNY",
+    synopsis: "Naira-Yuan stablecoins swap PoC via the Tempo blockchain",
+    link: "https://github.com/akinxwumi/tempo-ngn-cny-swap"
+  },
+  {
     name: "NairaBooks",
     synopsis: "A prototype for an AI-powered accounting software for Nigeria",
     link: "https://nairabooks.vercel.app"
