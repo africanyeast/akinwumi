@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         return {};
     }
     return {
-        title: `${post.frontmatter.title} | Wumi`,
+        title: `${post.frontmatter.title} | Akin Wumi`,
         description: post.frontmatter.summary,
     };
 }
@@ -43,7 +43,7 @@ export default async function WritingPage({ params }: Props) {
             tags={post.frontmatter.tags || []}
             date={post.frontmatter.date}
         >
-            <div className="prose prose-neutral dark:prose-invert max-w-none prose-headings:font-bold prose-h2:mt-10 prose-h2:mb-6 prose-p:leading-8 prose-li:my-2">
+            <div className="prose max-w-none prose-headings:font-bold prose-h2:mt-10 prose-h2:mb-6 prose-p:leading-8 prose-li:my-2">
                 {post.content}
             </div>
         </ProjectLayout>
